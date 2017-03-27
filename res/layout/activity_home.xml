@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.activity.HomeActivity" >
+<android.support.v4.view.ViewPager
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/viewpager"
+    />
+<LinearLayout
+    android:layout_height="50dp"
+    android:layout_width="match_parent"
+    android:id="@+id/ll"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:background="#ffffff"
+    >
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="记账"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/tab_accounte"
+        android:gravity="center"
+        android:clickable="true"
+        android:textColor="#3FC6B6"
+        android:id="@+id/tab_account_tv"
+        />
+     <TextView
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="报表"
+        android:drawableTop="@drawable/tab_form2"
+        android:gravity="center"
+        android:clickable="true"
+        android:id="@+id/tab_form_tv"
+        />
+      <TextView
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="资金"
+        android:drawableTop="@drawable/tab_founds2"
+        android:gravity="center"
+        android:clickable="true"
+        android:id="@+id/tab_founds_tv"
+        />
+       <TextView
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="更多"
+        android:drawableTop="@drawable/tab_mine2"
+        android:gravity="center"
+        android:clickable="true"
+        android:id="@+id/tab_mine_tv"
+        />
+    
+</LinearLayout>>
+
+</RelativeLayout>

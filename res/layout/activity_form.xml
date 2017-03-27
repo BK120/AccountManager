@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical" >
+    <LinearLayout
+            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:text="收入"
+                android:textColor="#11D9C0"
+                android:id="@+id/formActivity_shouru_tab_tv"
+                android:clickable="true"
+                android:gravity="center"
+                android:background="@drawable/addrecord_shouru_zhichu_tab_shape"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:text="支出"
+                android:gravity="center"
+                android:id="@+id/formActivity_zhichu_tab_tv"
+                android:clickable="true"
+                android:background="@drawable/addrecord_shouru_zhichu_tab_shape"
+                />
+        </LinearLayout>
+        <FrameLayout
+            android:layout_height="450dp"
+            android:layout_width="match_parent"
+            android:id="@+id/formActivity_fl"
+            />
+    
+
+</LinearLayout>

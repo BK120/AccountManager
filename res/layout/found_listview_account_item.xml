@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:orientation="vertical" >
+	<RelativeLayout
+	    android:layout_height="40dp"
+	    android:layout_width="300dp"
+	    >
+	    <ImageView
+	        android:layout_height="match_parent"
+	        android:layout_width="40dp"
+	        android:id="@+id/found_listview_account_item_iv"
+	        />
+	    <TextView
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="18sp"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="10dp"
+	        android:id="@+id/found_listview_account_item_tv"
+	        android:layout_toRightOf="@+id/found_listview_account_item_iv"
+	        />
+	    <TextView
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="18sp"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="10dp"
+	        android:layout_alignParentRight="true"
+	        android:id="@+id/found_listview_account_item_money_tv"
+	        />
+	    </RelativeLayout>
+</LinearLayout>
